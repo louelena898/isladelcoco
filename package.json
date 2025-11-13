@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-isla-del-coco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preview": "vite preview",
+    "import-species": "node ./scripts/import-species.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vite": "^7.2.2"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.6.0",
+    "xlsx": "^0.18.5"
+  }
+}

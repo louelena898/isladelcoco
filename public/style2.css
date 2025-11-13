@@ -1,0 +1,101 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    display: flex; /* para activar Flexbox para centrar y organizar elementos */
+    flex-direction: column; /* para organizar los elementos en columna */
+    align-items: center; /* para centrar horizontalmente */
+    justify-content: flex-start; 
+    min-height: 100vh; /* para la altura mínima de toda la pantalla */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; 
+    color: #333; 
+}
+
+header{
+    background-color: #3a8b8b;
+     height: 18vh;    
+    width: 100vw;
+    text-align: center;
+}
+
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2b6b6b;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #20bbae; 
+}
+
+.menu-navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    padding: 10px 0;
+}
+
+.menu-navegacion a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: #2b6b6b; 
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.menu-navegacion a:hover {
+    background-color: #20bbae; 
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2b6b6b;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #20bbae; 
+}
+
+body > .col-lg-4 {
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.bg-inicio {
+    background-color: white; 
+    color: #333; 
+    max-width: 800px;
+}
+
+header, footer {
+    background-color: #3a8b8b; 
+    color: white; 
+    width: 100%; 
+    padding: 10px 0; 
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+header h1, footer h2 {
+    margin: 10px 0; 
+    font-weight: normal; 
+}
+
+footer {
+    margin-top: auto;
+}

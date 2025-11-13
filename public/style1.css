@@ -1,0 +1,67 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #183033 !important; 
+    color: white; 
+    background-image: url('fondoinicioisladelcoco.jpg');
+    background-size: cover;                 
+    background-position: center center;     
+    background-attachment: fixed;           
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px; 
+}
+
+.card {
+    background-color: #2b6b6b !important;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+.form-label {
+    color: white; 
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 10px;
+    color: #183033; 
+}
+
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(32, 190, 174, 0.5); 
+    border-color: #20bbae;
+}
+
+
+.btn-primary {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #43a0a0; 
+    color: white;
+    padding: 15px 20px; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    --bs-btn-bg: #2b6b6b !important; 
+    --bs-btn-border-color: #2b6b6b !important;
+    --bs-btn-hover-bg: #20bbae !important; 
+    --bs-btn-hover-border-color: #20bbae !important;
+    --bs-btn-active-bg: #20bbae !important;
+    --bs-btn-active-border-color: #20bbae !important;
+    --bs-btn-focus-shadow-rgb: 43, 107, 107 !important; 
+}
+
+.btn-primary:hover {
+    background-color: #45d6ca !important;
+}
